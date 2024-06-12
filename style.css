@@ -3,3 +3,17 @@
   padding: 0;
   margin: 0;
 }
+
+.offcanvas-body a {
+  text-decoration: none;
+  color: black;
+}
+
+.offcanvas-body a:hover{
+  color: rgba(0, 0, 0, 0.584);
+}
+
+.offcanvas-top  {
+  background-color: rgb(255, 197, 72);
+}
+
