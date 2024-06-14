@@ -17,11 +17,47 @@
   background-color: rgb(255, 194, 53);
 }
 
+.text-orange{
+  color: rgb(255, 194, 53);;
+}
+
 
 .hero{
- background-color: aqua;
+ background-color: rgb(255, 194, 53);
  background-image: url('./images/hero.png');
  background-repeat: no-repeat;
  background-size: 100% ;
 
+
+}
+
+.hdata{
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+.box{
+  filter: saturate(1);
+}
+
+.box:hover{
+  .hdata{
+    opacity: 1;
+    transition: all 0.3s;
+
+  }
+  filter: saturate(0);
+
+}
+
+.hofcenter{
+  font-weight: 900;
+  position: relative;
+  top: -8.5vh;
+}
+
+.social:hover{
+  transition: all 0.6s;
+  background-color: rgb(255, 153, 0);
 }
